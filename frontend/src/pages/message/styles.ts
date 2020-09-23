@@ -49,15 +49,18 @@ export const Title = styled.div`
     font-size: 6rem;
   }
   a {
-    text-decoration: none;
     color: #ffffff;
+    margin-top: 10px;
+    text-decoration: none;
     display: flex;
     align-items: center;
-    &:hover {
-      color: #3f3071;
-    }
+
     svg {
       margin-right: 10px;
+    }
+
+    &:hover {
+      text-decoration: underline;
     }
   }
 `

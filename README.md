@@ -44,5 +44,20 @@ $ Docker-compose down
 ```
  
 
+## Testes (backend, frontend)
+
+Lembrando que precisa estár com os container rodando para poder rodar os testes.
+
+### Backend
+
+```sh
+$ docker exec app--backend yarn test:cov
+```
+
+### Frontend
+
+```sh
+$ docker exec app--frontend yarn test
+```
   
   

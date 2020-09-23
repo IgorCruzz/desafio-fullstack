@@ -1,1 +1,1 @@
-<img src="https://github.com/IgorCruzz/desafio-fullstack/blob/igorcruz/chall.gif" width="800" height="400" />
+<img src="https://github.com/IgorCruzz/desafio-fullstack/blob/igorcruz/chall.gif" width="1000" height="700" />

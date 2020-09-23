@@ -25,7 +25,7 @@ Frontend:
   Axios
 
 
-##Como iniciar a aplicação
+## Como iniciar a aplicação
 
 
 ```sh
@@ -34,7 +34,7 @@ $ Docker-compose up
  
 
 
-##Parar a aplicação
+## Parar a aplicação
 
 
 

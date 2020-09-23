@@ -17,7 +17,7 @@ describe('Signup', () => {
     expect(render(<Signup />)).toBeTruthy()
   })
 
-  it('should be able to register', async () => {
+  it('should be able to dispatch an user create action', async () => {
     const dispatch = jest.fn()
 
     jest.spyOn(redux, 'useDispatch').mockReturnValue(dispatch)

@@ -29,6 +29,8 @@ services:
     command: npm run docker
     environment:
       HOST: app--database
+      EMAIL: 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
+      URL: http://localhost:8080
     build: 
       context: ./backend
       dockerfile: Dockerfile

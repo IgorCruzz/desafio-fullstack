@@ -8,7 +8,7 @@ export const AuthenticationMail = async (data: {
 }) => {
   const { name, email, token } = data
 
-  sgMail.setApiKey(process.env.SENDGRID_API)
+  sgMail.setApiKey(process.env.EMAIL)
 
   const msg = {
     to: email,
@@ -29,5 +29,5 @@ export const AuthenticationMail = async (data: {
            </button></p>`,
   }
 
-  await sgMail.send(msg)
+  await  sgMail.send(msg)
 }

@@ -28,7 +28,7 @@ export class ResetPasswordCreateService {
     /**
      * Procura pelo  email do usuário passado na requisição
      */
-    const user = await this.userRepository.findOne({ email })
+    const user = await this.userRepository.findOne({ email: email.toLowerCase().trim() })
 
     /**
      * Se não existir retorna um erro

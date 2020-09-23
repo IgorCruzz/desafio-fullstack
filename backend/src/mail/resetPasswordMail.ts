@@ -8,7 +8,7 @@ export const ResetPasswordMail = async (data: {
 }) => {
   const { name, email, token } = data
 
-  sgMail.setApiKey(process.env.SENDGRID_API)
+  sgMail.setApiKey(process.env.EMAIL)
 
   const msg = {
     to: email,

@@ -1,7 +1,7 @@
 version: "3"
 services:   
   frontend:
-      container_name: app-frontend
+      container_name: app--frontend
       command: npm start
       build: 
         context: ./frontend
@@ -13,7 +13,7 @@ services:
       volumes:
         - ./:/usr/src/app/back
   db:
-    container_name: database
+    container_name: app--database
     restart: always
     image: postgres
     volumes:
@@ -25,10 +25,10 @@ services:
     ports:
       - 5432:5432
   backend:
-    container_name: app-backend
+    container_name: app--backend
     command: npm run docker
     environment:
-      HOST: database
+      HOST: app--database
     build: 
       context: ./backend
       dockerfile: Dockerfile

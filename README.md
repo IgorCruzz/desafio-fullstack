@@ -25,18 +25,19 @@ Frontend:
   Axios
 
 
-## Como iniciar a aplicação
+## Instalação
 
+```sh
+$ https://github.com/IgorCruzz/desafio-fullstack.git
+```
+
+## Como iniciar a aplicação
 
 ```sh
 $ Docker-compose up
 ```
- 
-
 
 ## Parar a aplicação
-
-
 
 ```sh
 $ Docker-compose down

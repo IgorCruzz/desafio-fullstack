@@ -27,11 +27,21 @@ Frontend:
 
 Como iniciar a aplicação
 
-Docker-compose up
+
+```sh
+$ Docker-compose up
+```
+ 
 
 
 Parar a aplicação
 
-Docker-compose down
+
+
+```sh
+$ Docker-compose down
+```
+ 
+
   
   

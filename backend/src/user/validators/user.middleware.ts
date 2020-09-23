@@ -20,11 +20,11 @@ export class UserMiddleware implements NestMiddleware {
        */
       const schema = Yup.object().shape({
         name: Yup.string()
-          .min(5, 'O nome precisa ter no mínimo 5 caracteres')
+          .min(3, 'O nome precisa ter no mínimo 3 caracteres')
           .max(20, 'O nome precisa ter no máximo 20 caracteres')
           .required('Campo obrigratório'),
         lastname: Yup.string()
-          .min(5, 'O nome precisa ter no mínimo 5 caracteres')
+          .min(3, 'O nome precisa ter no mínimo 3 caracteres')
           .max(50, 'O nome precisa ter no máximo 50 caracteres')
           .required('Campo obrigratório'),
         email: Yup.string()

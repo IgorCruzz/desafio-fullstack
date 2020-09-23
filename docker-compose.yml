@@ -1,0 +1,44 @@
+version: "3"
+services:   
+  frontend:
+      container_name: app-frontend
+      command: npm start
+      build: 
+        context: ./frontend
+        dockerfile: Dockerfile
+      expose:
+        - 8080
+      ports:
+        - 8080:8080
+      volumes:
+        - ./:/usr/src/app/back
+  db:
+    container_name: database
+    restart: always
+    image: postgres
+    volumes:
+      - postgres-artigo-data:/data
+    environment:
+      POSTGRES_PASSWORD: 'postgres'
+      POSTGRES_USER: 'postgres'
+      POSTGRES_DB: 'postgres'
+    ports:
+      - 5432:5432
+  backend:
+    container_name: app-backend
+    command: npm run docker
+    environment:
+      HOST: database
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    expose:
+      - 3333
+    depends_on:
+      - db
+    ports:
+      - 3333:3333
+    volumes:
+      - ./:/usr/src/app/front    
+volumes:
+  postgres-artigo-data:       

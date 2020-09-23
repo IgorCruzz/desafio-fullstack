@@ -17,7 +17,7 @@ describe('Signin', () => {
     expect(render(<Signin />)).toBeTruthy()
   })
 
-  it('should be able to login', async () => {
+  it('should be to dispatch signin action', async () => {
     const dispatch = jest.fn()
 
     jest.spyOn(redux, 'useDispatch').mockReturnValue(dispatch)

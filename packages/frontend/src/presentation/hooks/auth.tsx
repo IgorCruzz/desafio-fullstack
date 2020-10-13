@@ -1,6 +1,6 @@
-import React, { createContext, useCallback, useState, useContext } from 'react';
+import React, { createContext, useCallback, useState, useContext } from 'react'
 
-import api from '../../infra/services/http/api';
+import api from '../../infra/services/http/api'
 
 interface User {
   id: string
@@ -27,7 +27,7 @@ interface AuthContextData {
 
 // useCallback(() => {}, []) => só altera a função quando necessario
 
-const AuthContext = createContext<AuthContextData>({} as AuthContextData);
+const AuthContext = createContext<AuthContextData>({} as AuthContextData)
 
 const AuthProvider: React.FC = ({ children }) => {
   const [data, setData] = useState<AuthState>(() => {
@@ -61,18 +61,6 @@ const AuthProvider: React.FC = ({ children }) => {
 
     setData({} as AuthState)
   }, [])
-
-  const updateUser = useCallback(
-    (user: User) => {
-      localStorage.setItem('@profitfyme:user', JSON.stringify(user))
-
-      setData({
-        token: data.token,
-        user,
-      })
-    },
-    [setData, data.token],
-  )
 
   return (
     <AuthContext.Provider

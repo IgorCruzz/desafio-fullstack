@@ -1,4 +1,4 @@
-import React, { useRef, useContext, useCallback } from 'react'
+import React, { useState, useRef, useContext, useCallback, FormEvent } from 'react'
 import { useAuth } from '../../hooks/auth'
 import { useToast } from '../../hooks/toast'
 import { FormHandles } from '@unform/core'
@@ -7,6 +7,8 @@ import { BsFillPersonFill } from 'react-icons/bs'
 import { MdAccountCircle } from 'react-icons/md'
 import { MdEmail } from 'react-icons/md'
 import { FaUnlockAlt } from 'react-icons/fa'
+
+import { FiLogIn, FiMail, FiLock } from 'react-icons/fi'
 
 import logoImg from '../../assets/logo/internal-logo/profitfy_logo.svg'
 import airplaneIcon from '../../assets/images/icons/paper-airplane.svg'
@@ -23,6 +25,8 @@ import InputSignUp from '../../components/InputSignUp'
 import InputMasked from '../../components/InputMasked'
 import Text from '../../components/Text'
 import { Container, Title, Content, Button } from './styles'
+
+import InputSignIn from '../../components/InputSignIn'
 
 interface SignUpFormData {
   name: string
@@ -206,11 +210,11 @@ const AccountLog: React.FC = () => {
           </div>
           <div className="form-content">
             <Form ref={formRef} onSubmit={handleSubmit}>
-              <Input name="email" icon={MdEmail} placeholder="E-mail" />
+              <Input name="email" icon={FiMail} placeholder="E-mail" />
 
               <Input
                 name="password"
-                icon={FaUnlockAlt}
+                icon={FiLock}
                 type="password"
                 placeholder="Senha"
               />

@@ -15,16 +15,16 @@ const Dashboard: React.FC = () => {
     <S.Container>
       <S.Header>
         <S.HeaderContent>
-          <MenuIcon style={{ marginLeft: -45, marginRight: 35, height: 50 }} />
+          <MenuIcon style={{ marginLeft: -45, marginRight: 35, height: 50, width: 50 }} />
           <img src={logoImg} alt="Profitfy.me logo" />
 
           <S.HeaderProfile>
             <img
               src={
-                user.avatar_url ||
+                user?.avatar_url ||
                 'https://api.adorable.io/avatars/56/abott@adorable.io.png'
               }
-              alt={user.name}
+              alt={user?.name}
             />
 
             <div>

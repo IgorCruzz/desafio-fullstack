@@ -7,8 +7,8 @@ import './container'
 import routes from './routes'
 import AppError from '@validation/errors/AppError'
 import ValidationError from '@validation/errors/ValidationError'
-import morgan from 'morgan'
-import { getMorganLogLevel } from './http/helpers/morganHelpers'
+// import morgan from 'morgan'
+// import { getMorganLogLevel } from './http/helpers/morganHelpers'
 
 const PORT = 3333
 const HOST = '0.0.0.0'
@@ -18,7 +18,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 app.use(routes)
-app.use(morgan(getMorganLogLevel))
+// app.use(morgan(getMorganLogLevel))
 
 // Global Exception Handling: if the error is known is returned an friendly response
 app.use((err: Error, request: Request, response: Response, _: NextFunction) => {

@@ -187,7 +187,7 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
 
 ---
 
-<h1>:desktop_computer: Frontend</h1>
+<h1 align="center">:desktop_computer: Frontend</h1>
 <h3 align="center">
   Aplicação Profitfy.me usando ReactJS & TypeScript 
 </h3>

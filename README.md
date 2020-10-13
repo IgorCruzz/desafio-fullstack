@@ -44,11 +44,13 @@
   <a href="#-license">License</a>
 </p>
 
+</br>
 
 > ## :warning: Observação!
 
 <p>Veja abaixo, dentro do acesso a cada módulo do projeto dentro de sua respectiva sessão, sendo Backend & Frontend</p>
 
+</br>
 
 > ## :desktop_computer: About the project
 
@@ -56,16 +58,17 @@ Está API serve o frontent desenvolvido com ReactJS, projetado para gerenciar um
 dashboard, mas somente desenvolvido o Login e SignUp com Typescript, NodeJs, E
 Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker & Heroku.
 
+</br>
 
 > ## User Cases
 
 1. [SignUp](./requirements/signup.md)
 2. [Login](./requirements/login.md)
 
-
+</br>
 
 > ## Estrutura do projeto
-
+```bash
 * src
   - data
   - domain
@@ -73,7 +76,9 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
   - main
   - presentation
   - validation
+```
 
+</br>
 
 > ## Princípios
 ```bash
@@ -94,6 +99,7 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
   * Dependency Injection
 ```
 
+</br>
 
 > ## Metodologias e Designs
 ```bash
@@ -107,6 +113,7 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
   * Continuous Deployment
 ```
 
+</br>
 
 > ## :technologist: Tecnologias
 
@@ -140,6 +147,7 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
 - [editorconfig](https://github.com/editorconfig/editorconfig-vscode)
 - [dotenv](https://github.com/motdotla/dotenv)
 
+</br>
 
 > ## Princípais Features
 ```bash
@@ -168,6 +176,7 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
   * Fakes
 ```
 
+</br>
 
 > ## Getting Started
 **Follow the steps below**
@@ -187,6 +196,7 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
   # Bem feito, projeto está iniciado!
 ```
 
+</br>
 
 > ## Rotas da Aplicação
 ```bash
@@ -194,6 +204,7 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
   # Se logar na aplicação => /session
 ```
 
+</br>
 
 > ## URL no Heroku 
   *
@@ -241,13 +252,15 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
   <a href="#-license">License</a>
 </p>
 
+</br>
 
 > ## :desktop_computer: About the project
 
-Está API serve o frontent desenvolvido com ReactJS, projetado para gerenciar um 
-dashboard, mas somente desenvolvido o Login e SignUp com Typescript, NodeJs, E
-Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker & Heroku.
+Está aplicação frontent desenvolvido com ReactJS, foi projetado para gerenciamento de finanças e
+outras tarefas por meio de um dashboard, mas somente desenvolvido o Login e SignUp com Typescript,
+NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker & Heroku.
 
+</br>
 
 > ## :computer: Interfaces 
 
@@ -258,15 +271,17 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
   <img alt="SignUp" src="./packages/project/frontend/images/signup/profitfyme-signup.png">
 </p>
 
+</br>
 
 > ## User Cases
 
 1. [SignUp](./requirements/signup.md)
 2. [Login](./requirements/login.md)
 
+</br>
 
 > ## Estrutura do projeto
-
+```bash
 * src
   - data
   - domain
@@ -274,7 +289,9 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
   - main
   - presentation
   - validation
+```
 
+</br>
 
 > ## Metodologias e Designs
 ```bash
@@ -288,6 +305,7 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
   * Continuous Deployment
 ```
 
+</br>
 
 > ## :technologist: Tecnologias
 
@@ -310,6 +328,7 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
 - [Prettier](https://prettier.io/)
 - [EditorConfig](https://editorconfig.org/)
 
+</br>
 
 > ## Princípais Features
 ```bash
@@ -322,6 +341,7 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
   * Deploy
 ```
 
+</br>
 
 > ## Getting Started
 **Follow the steps below**

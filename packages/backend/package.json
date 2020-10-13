@@ -26,7 +26,7 @@
     "typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
     "debug": "yarn build && yarn watch-debug",
     "dev:server": "ts-node-dev src/main/server.ts",
-    "resetDatabase": "ts-node-dev ./node_modules/typeorm/cli.js query 'DROP TABLE IF EXISTS appointments, users, migrations' && ts-node-dev ./node_modules/typeorm/cli.js migration:run",
+    "resetDatabase": "ts-node-dev ./node_modules/typeorm/cli.js query 'DROP TABLE IF EXISTS users, migrations' && ts-node-dev ./node_modules/typeorm/cli.js migration:run",
     "db:migrate": "yarn run typeorm migration:run",
     "migration:run": "yarn typeorm migration run",
     "lint": "eslint ./src --ext .ts",

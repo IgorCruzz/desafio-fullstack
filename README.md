@@ -4,7 +4,7 @@
 <h1>:earth_americas: Backend</h1>
 <br/>
 <h1 align="center">
-  <img alt="Layout" src="./package/project/frontend/images/gif/profitfyme-video.gif">
+  <img alt="Layout" src="./packages/project/frontend/images/gif/profitfyme-video.gif">
 </h1>
 
 <h3 align="center">

@@ -10,9 +10,6 @@
 <h3 align="center">
   Repositório com o Servidor (Backend) & Web-Client (Frontend) do projeto fullstack Profitify.me
 </h3>
-<h3>
-  Veja abaixo, dentro do acesso a cada módulo do projeto dentro de sua respectiva sessão, sendo Backend & Frontend
-</h3>
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/badge/typescript-90.0-informational?color=%237D40E7">
@@ -46,6 +43,10 @@
   <a href="#-getting-started">URL no Heroku</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
+
+> ## :warning: Observação!
+
+<p>Veja abaixo, dentro do acesso a cada módulo do projeto dentro de sua respectiva sessão, sendo Backend & Frontend</p>
 
  > ## :desktop_computer: About the project
 

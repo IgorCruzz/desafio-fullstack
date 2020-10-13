@@ -9,7 +9,34 @@
 
 </br>
 
-<h1>:earth_americas: Backend</h1>
+<h1>:handbag: Monorepo</h1>
+ 
+Este monorepo tem como objetivo armazenar o desenvolvimento de uma aplicação fullstack sendo 
+composto por um servidor desenvolvido com NodeJs e uma interface web, sendo esta desenvolvida 
+com ReactJS. Ambos os componentes que compôe da aplicação foram desenvolvidos com TypeScript 
+como base.
+
+</br>
+
+> ## :key: Scripts
+
+* yarn dev:server => ()
+* yarn dev:web => ()
+
+</br>
+
+> ## :rocket: Tecnologias
+
+- [Husky](https://github.com/typicode/husky)
+- [Travis CI](https://github.com/travis-ci/travis-ci)
+- [Commitizen](https://github.com/commitizen/cz-cli)
+- [commitlint](https://github.com/conventional-changelog/commitlint)
+- [Lint Staged](https://github.com/okonet/lint-staged)
+- [Eslint](https://github.com/eslint/eslint)
+
+</br>
+
+<earth_americas: Backend</h1>
 
 <h3 align="center">
   Repositório com o Servidor (Backend) & Web-Application (Frontend) do projeto fullstack Profitify.me
@@ -56,7 +83,7 @@
 
 </br>
 
-> ## :desktop_computer: About the project
+> ## :bar_chart: About the project
 
 Está API serve o frontent desenvolvido com ReactJS, foi projetado para gerenciamento de finanças e outras 
 tarefas por meio de um dashboard, mas inicialmente somente desenvolvido o Login e SignUp com Typescript, 
@@ -64,27 +91,52 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 
 </br>
 
-> ## User Cases
+> ## :high_brightness: User Cases
 
 1. [SignUp](./requirements/signup.md)
 2. [Login](./requirements/login.md)
 
 </br>
 
-> ## Estrutura do projeto
+> ## :wrench: Estrutura do projeto
 ```bash
 * src
-  - data
-  - domain
-  - infra
-  - main
-  - presentation
-  - validation
+  - data => (Onde se encontram as classes que tratam a regra de negócio com o banco de dados)
+  - domain => (Onde se encontra a regra de negócio) 
+  - infra => (Onde se encontram as implementações das regras de negócio) 
+  - main => (Onde se encontram as features servidoras e principais)
+  - presentation => (Camada de apresentação da regra de negócio)
+  - validation => (Onde se encontram as validações de erros e demais validações)
 ```
 
 </br>
 
-> ## Princípios
+
+> ## :key: Scripts
+
+* yarn build => (constroí e transpila com babel)
+* yarn start => (inicia a aplicação) 
+* yarn typeorm => (constroí comandos do typeorm) 
+* yarn debug => (debuga a aplicação)
+* yarn dev:server => (inicia o servidor no modo de desenvolvimento)
+* yarn resetDatabase => (apaga as migrações com typeorm)
+* yarn db:migrate => (reseta as migrações com typeorm)
+* yarn migration:run => (faz as migrações)
+* yarn lint => (checa erros com eslint)
+* yarn lint:fix => (corrige os erros com eslint)
+* yarn style:check => (checa os erros com prettier)
+* yarn style:fix => (corrige os erros com prettier)
+* yarn test => (executa os testes com jest)
+* yarn test:verbose => (verifica todos os testes gerando um grafico)
+* yarn test:unit => (executa os testes de unidade)
+* yarn test:integration => (executa os testes de integração)
+* yarn test:staged => (executa os testes em commit)
+* yarn test:ci => (executa os testes e gera uma tabela na pasta coverage)
+* yarn test:coveralls => (executa os testes, gera uma tabela e executa o ci)
+
+</br>
+
+> ## :construction: Princípios
 ```bash
 ## SOLID
   * Single Responsibility Principle (SRP)
@@ -105,7 +157,7 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 
 </br>
 
-> ## Metodologias e Designs
+> ## :beginner: Metodologias e Designs
 ```bash
   * TDD (Test Driven Development)
   * DDD (Domain Driven Development) e algumas praticas de Clean Architecture
@@ -119,7 +171,7 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 
 </br>
 
-> ## :technologist: Tecnologias
+> ## :rocket: Tecnologias
 
 - [Yarn](https://github.com/yarnpkg/yarn)
 - [TypeScript](https://github.com/microsoft/TypeScript)
@@ -129,7 +181,6 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 - [Jest](https://github.com/facebook/jest)
 - [Postgres](https://github.com/postgres/postgres)
 - [Travis CI](https://github.com/travis-ci/travis-ci)
-- [Swagger](https://github.com/swagger-api)
 - [BcryptJs](https://github.com/dcodeIO/bcrypt.js/)
 - [JsonWebToken](https://github.com/jsonwebtoken/jsonwebtoken.github.io)
 - [FakerJs](https://github.com/marak/Faker.js/)
@@ -142,6 +193,7 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 - [Eslint](https://github.com/eslint/eslint)
 - [Nodemon](https://github.com/remy/nodemon)
 - [Rimraf](https://github.com/isaacs/rimraf)
+- [Husky](https://github.com/typicode/husky)- 
 - [MockDate](https://github.com/boblauer/MockDate)
 - [Module-Alias](https://github.com/ilearnio/module-alias)
 - [Morgan](https://github.com/expressjs/morgan)
@@ -153,7 +205,7 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 
 </br>
 
-> ## Princípais Features
+> ## :hammer: Princípais Features
 ```bash
 ## Features do Node
   * Documentação de API com Swagger
@@ -182,7 +234,7 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 
 </br>
 
-> ## Getting Started
+> ## :key: Getting Started
 **Follow the steps below**
 ```bash
   # Instale as dependencias
@@ -209,9 +261,6 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 ```
 
 </br>
-
-> ## URL no Heroku 
-  *
 
 ---
 
@@ -266,7 +315,7 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 
 </br>
 
-> ## :computer: Interfaces 
+> ## :bar_chart: Interfaces 
 
 <p align="center">
   <img alt="Login" src="./packages/project/frontend/images/login/profitfyme-signin.png">
@@ -277,27 +326,39 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 
 </br>
 
-> ## User Cases
+> ## :high_brightness: User Cases
 
 1. [SignUp](./requirements/signup.md)
 2. [Login](./requirements/login.md)
 
 </br>
 
-> ## Estrutura do projeto
+> ## :key: Scripts
+
+ * yarn start => (inicia a aplicação web)
+ * yarn build => (faz o build da aplicação)
+ * yarn test => (executa testes de aplicação "Está aplicação frontend não possui testes com Jest")
+ * yarn eject => (ejeta o create-react-app)
+ * yarn lint => (verifica os erros com eslint)
+ * yarn lint:fix => (corrige os erros com eslint)
+ * yarn style:check => (verifica os erros com prettier)
+ * yarn style:fix => (corrige os erros com prettier)
+ * yarn check:updates => (verifica update de pacotes com o yarn)
+
+</br>
+
+> ## :hammer: Estrutura do projeto
 ```bash
 * src
-  - data
-  - domain
-  - infra
-  - main
-  - presentation
-  - validation
+  - infra => (Onde se encontra a ligação com o servidor & banco de dados)
+  - main => (Onde se encontram as rotas da aplicação)
+  - presentation => (Onde se encontram os componentes de apresentação da aplicação)
+  - validation => (Onde se encontram as validações de erros e do Yup)
 ```
 
 </br>
 
-> ## Metodologias e Designs
+> ## :construction: Metodologias e Designs
 ```bash
   * TDD (Test Driven Development)
   * DDD (Domain Driven Development) e algumas praticas de Clean Architecture
@@ -311,7 +372,7 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 
 </br>
 
-> ## :technologist: Tecnologias
+> ## :rocket: Tecnologias
 
 - [ReactJS](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -334,7 +395,7 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 
 </br>
 
-> ## Princípais Features
+> ## :hammer: Princípais Features
 ```bash
 ## Features do React
   * Deploy no Heroku
@@ -347,7 +408,7 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 
 </br>
 
-> ## Getting Started
+> ## :key: Getting Started
 **Follow the steps below**
 ```bash
   # Instale as dependencias

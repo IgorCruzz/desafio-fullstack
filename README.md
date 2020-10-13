@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img alt="Layout" src="./project/images/logo/profitfyme_logo.svg">
+  <img alt="Layout" src="./packages/project/images/logo/profitfyme_logo.svg">
 </h1>
 <br/>
 <h1 align="center">
-  <img alt="Layout" src="./project/frontend/images/gif/profitfyme-video.gif">
+  <img alt="Layout" src="./package/project/frontend/images/gif/profitfyme-video.gif">
 </h1>
 
 <h3 align="center">
@@ -60,13 +60,13 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
 
 > ## Estrutura do projeto
 
-* - src
-    - data
-    - domain
-    - infra
-    - main
-    - presentation
-    - validation
+* src
+  - data
+  - domain
+  - infra
+  - main
+  - presentation
+  - validation
 
 > ## Princípios
 ```bash
@@ -237,10 +237,10 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
 > ## :computer: Interfaces 
 
 <p align="center">
-  <img alt="Login" src="./project/frontend/login/profitfyme_signin.png">
+  <img alt="Login" src="./packages/project/frontend/images/login/profitfyme_signin.png">
 </p>
 <p align="center">
-  <img alt="SignUp" src="./project/frontend/signup/profitfyme_signup.png">
+  <img alt="SignUp" src="./packages/project/frontend/images/signup/profitfyme_signup.png">
 </p>
 
 > ## User Cases
@@ -250,13 +250,13 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
 
 > ## Estrutura do projeto
 
-* - src
-    - data
-    - domain
-    - infra
-    - main
-    - presentation
-    - validation
+* src
+  - data
+  - domain
+  - infra
+  - main
+  - presentation
+  - validation
 
 > ## Metodologias e Designs
 ```bash

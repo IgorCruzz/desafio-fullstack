@@ -1,0 +1,4 @@
+./packages/backend/node_modules
+./packages/frontend/node_modules
+./packages/backend/coverage
+./packages/frontend/coverage

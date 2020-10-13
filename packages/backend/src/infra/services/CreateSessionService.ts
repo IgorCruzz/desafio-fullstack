@@ -2,7 +2,7 @@ import AppError from '@validation/errors/AppError'
 import { inject, injectable } from 'tsyringe'
 import User from '@domain/entities/User'
 import IAuthProvider from '@data/protocols/criptography/providers/AuthProvider/models/IAuthProvider'
-import IHashProvider from '@data/protocols/criptography/providers/HashPovider/models/IHashProvider'
+import IHashProvider from '@data/protocols/criptography/providers/HashProvider/models/IHashProvider'
 import IUserRepository from '@domain/repositories/IUserRepository'
 
 interface IRequest {

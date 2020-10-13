@@ -8,7 +8,7 @@
 </h1>
 
 <h3 align="center">
-  Repositório com o Servidor (Backend) & Web-Client (Frontend) do projeto fullstack Profitify.me
+  Repositório com o Servidor (Backend) & Web-Application (Frontend) do projeto fullstack Profitify.me
 </h3>
 
 <p align="center">
@@ -20,12 +20,12 @@
 
   <img alt="Repository size" src="https://img.shields.io/badge/repo%20size-920kb-orange?color=%237D40E7">
 
-  <a href="https://github.com/vynnydev/profitify-fullstack/commits/dev">
+  <a href="https://github.com/vynnydev/profitify-server/commits/dev">
     <img alt="GitHub last commit" src="https://img.shields.io/badge/last%20commit-october-orange?color=%237D40E7">
   </a>
 
-  <a href="https://img.shields.io/github/issues/vynnydev/profitify-fullstack?color=yellow">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/Vynny21/fastfeet-frontend?color=%237D40E7">
+  <a href="https://img.shields.io/github/issues/vynnydev/profitfy-server?color=yellow">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/vynnydev/profitfyme-server?color=%237D40E7">
   </a>
 
   <img alt="GitHub" src="https://img.shields.io/badge/license-MIT-orange?color=%237D40E7">
@@ -227,12 +227,12 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 
   <img alt="Repository size" src="https://img.shields.io/badge/repo%20size-920kb-orange?color=%237D40E7">
 
-  <a href="https://github.com/Vynny21/fastfeet-frontend/commits/dev">
-    <img alt="GitHub last commit" src="https://img.shields.io/badge/last%20commit-june-orange?color=%237D40E7">
+  <a href="https://github.com/vynnydev/profitfyme-web/commits/dev">
+    <img alt="GitHub last commit" src="https://img.shields.io/badge/last%20commit-october-orange?color=%237D40E7">
   </a>
 
-  <a href="https://img.shields.io/github/issues/Vynny21/fastfeet-frontend?color=yellow">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/Vynny21/fastfeet-frontend?color=%237D40E7">
+  <a href="https://img.shields.io/github/issues/vynnydev/profitfyme-web?color=yellow">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/vynnydev/profitfyme-web?color=%237D40E7">
   </a>
 
   <img alt="GitHub" src="https://img.shields.io/badge/license-MIT-orange?color=%237D40E7">

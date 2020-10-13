@@ -21,10 +21,10 @@ const Dashboard: React.FC = () => {
           <S.HeaderProfile>
             <img
               src={
-                user?.avatar_url ||
+                user.avatar_url ||
                 'https://api.adorable.io/avatars/56/abott@adorable.io.png'
               }
-              alt={user?.name}
+              alt={user.name}
             />
 
             <div>

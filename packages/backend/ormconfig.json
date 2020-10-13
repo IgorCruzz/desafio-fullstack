@@ -6,12 +6,12 @@
   "password": "docker-profitfyme",
   "database": "profitfyme",
   "entities": [
-    "./src/modules/**/infra/typeorm/models/*ts"
+    "./src/domain/entities/*ts"
   ],
   "migrations": [
-    "./src/shared/infra/typeorm/migrations/*.ts"
+    "./src/main/typeorm/migrations/*.ts"
   ],
   "cli": {
-    "migrationsDir": "./src/shared/infra/typeorm/migrations"
+    "migrationsDir": "./src/main/typeorm/migrations"
   }
 }

@@ -6,8 +6,8 @@ services:
     container_name: nodejs-server
     build: '.'
     volumes:
-      - .:/home/node/server
-      - /home/node/server/node_modules
+      - .:/home/api/backend
+      - /home/node/api/node_modules
     depends_on:
       - profitfy-postgres
     ports:

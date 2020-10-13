@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - 12
+addons:
+  packages:
+    - libgconf-2-4
+cache:
+  yarn: true
+  directories:
+    - ~/.cache
+script:
+  - eslint 'src/**'
+  - yarn ./packages/backend/test:coveralls

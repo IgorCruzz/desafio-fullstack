@@ -10,4 +10,5 @@ cache:
     - ~/.cache
 script:
   - eslint 'src/**'
-  - yarn ./packages/backend/test:coveralls
+  - yarn dev:server
+  - yarn dev:web

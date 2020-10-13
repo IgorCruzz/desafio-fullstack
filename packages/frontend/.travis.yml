@@ -10,8 +10,3 @@ cache:
     - ~/.cache
 script:
   - eslint 'src/**'
-deploy:
-  provider: heroku
-  api_key: $HEROKU_API
-  app: profitfyme-web
-  skip_cleanup: true

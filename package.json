@@ -1,0 +1,17 @@
+{
+  "name": "desafio-fullstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vynnydev/desafio-fullstack.git",
+  "author": "vynnydev <vynnyprudencio@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev:server": "ts-node-dev ./packages/backend/src/main/server.ts",
+    "dev:web": "./packages/frontend/yarn start"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.8",
+    "ts-node-dev": "^1.0.0-pre.63",
+    "typescript": "^4.0.3"
+  }
+}

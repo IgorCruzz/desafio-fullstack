@@ -254,7 +254,7 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 
 </br>
 
-> ## Rotas da Aplicação
+> ## :vertical_traffic_light: Rotas da Aplicação
 ```bash
   # Criar uma conta => /account/create
   # Se logar na aplicação => /session
@@ -307,7 +307,7 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 
 </br>
 
-> ## :desktop_computer: About the project
+> ## :bar_chart: About the project
 
 Está aplicação frontent desenvolvido com ReactJS, foi projetado para gerenciamento de finanças e
 outras tarefas por meio de um dashboard, mas inicialmente foi somente desenvolvido o Login e SignUp com Typescript,
@@ -315,7 +315,7 @@ NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis
 
 </br>
 
-> ## :bar_chart: Interfaces 
+> ## :iphone: Interfaces 
 
 <p align="center">
   <img alt="Login" src="./packages/project/frontend/images/login/profitfyme-signin.png">

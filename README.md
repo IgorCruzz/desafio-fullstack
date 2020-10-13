@@ -237,10 +237,10 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
 > ## :computer: Interfaces 
 
 <p align="center">
-  <img alt="Login" src="./packages/project/frontend/images/login/profitfyme_signin.png">
+  <img alt="Login" src="./packages/project/frontend/images/login/profitfyme-signin.png">
 </p>
 <p align="center">
-  <img alt="SignUp" src="./packages/project/frontend/images/signup/profitfyme_signup.png">
+  <img alt="SignUp" src="./packages/project/frontend/images/signup/profitfyme-signup.png">
 </p>
 
 > ## User Cases

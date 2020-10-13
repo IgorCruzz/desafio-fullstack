@@ -36,7 +36,7 @@ como base.
 
 </br>
 
-<h1>earth_americas: Backend</h1>
+<h1>:earth_americas: Backend</h1>
 
 <h3 align="center">
   Repositório com o Servidor (Backend) & Web-Application (Frontend) do projeto fullstack Profitify.me

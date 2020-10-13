@@ -1,6 +1,7 @@
 <h1 align="center">
   <img alt="Layout" src="./packages/project/images/logo/profitfyme_logo.svg">
 </h1>
+<h1>:earth_americas: Backend</h1>
 <br/>
 <h1 align="center">
   <img alt="Layout" src="./package/project/frontend/images/gif/profitfyme-video.gif">
@@ -187,7 +188,7 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
 
 ---
 
-<h1 align="center">:desktop_computer: Frontend</h1>
+<h1>:desktop_computer: Frontend</h1>
 <h3 align="center">
   Aplicação Profitfy.me usando ReactJS & TypeScript 
 </h3>

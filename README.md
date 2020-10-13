@@ -54,9 +54,9 @@
 
 > ## :desktop_computer: About the project
 
-Está API serve o frontent desenvolvido com ReactJS, projetado para gerenciar um 
-dashboard, mas somente desenvolvido o Login e SignUp com Typescript, NodeJs, E
-Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker & Heroku.
+Está API serve o frontent desenvolvido com ReactJS, foi projetado para gerenciamento de finanças e outras 
+tarefas por meio de um dashboard, mas inicialmente somente desenvolvido o Login e SignUp com Typescript, 
+NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker & Heroku.
 
 </br>
 
@@ -257,7 +257,7 @@ Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker
 > ## :desktop_computer: About the project
 
 Está aplicação frontent desenvolvido com ReactJS, foi projetado para gerenciamento de finanças e
-outras tarefas por meio de um dashboard, mas somente desenvolvido o Login e SignUp com Typescript,
+outras tarefas por meio de um dashboard, mas inicialmente foi somente desenvolvido o Login e SignUp com Typescript,
 NodeJs, Express, JWT, Postgres, ReactJS, Clean Architecture, CD/CI usando Travis, Docker & Heroku.
 
 </br>

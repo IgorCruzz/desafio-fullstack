@@ -1,11 +1,15 @@
 <h1 align="center">
   <img alt="Layout" src="./packages/project/images/logo/profitfyme_logo.svg">
 </h1>
-<h1>:earth_americas: Backend</h1>
+<h1>:iphone: Interface Web</h1>
 <br/>
 <h1 align="center">
   <img alt="Layout" src="./packages/project/frontend/images/gif/profitfyme-video.gif">
 </h1>
+
+</br>
+
+<h1>:earth_americas: Backend</h1>
 
 <h3 align="center">
   Repositório com o Servidor (Backend) & Web-Application (Frontend) do projeto fullstack Profitify.me

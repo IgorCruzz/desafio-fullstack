@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+
+  nodejs-server:
+    container_name: nodejs-server
+    build: '.'
+    volumes:
+      - .:/home/node/api
+      - /home/node/api/node_modules
+    depends_on:
+      - profitfy-postgres
+    ports:
+      - '3333:3333'
+    networks:
+      - app-connect
+
+  profitfy-postgres:
+    container_name: profitfy-postgres
+    image: postgres:11
+    restart: unless-stopped
+    volumes:
+      - postgres-data:/data
+    environment:
+      POSTGRES_DB: profitfyme
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: docker-profitfyme
+    ports:
+      - '5432:5432'
+    networks:
+      - app-connect
+
+volumes:
+  postgres-data:
+
+networks:
+  app-connect:
+      driver: bridge

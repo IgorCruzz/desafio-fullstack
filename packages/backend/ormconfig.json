@@ -1,0 +1,17 @@
+{
+  "type" : "postgres",
+  "host": "profitfy-postgres",
+  "port": 5432,
+  "username": "postgres",
+  "password": "docker-profitfyme",
+  "database": "profitfyme",
+  "entities": [
+    "./src/modules/**/infra/typeorm/models/*ts"
+  ],
+  "migrations": [
+    "./src/shared/infra/typeorm/migrations/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "./src/shared/infra/typeorm/migrations"
+  }
+}
